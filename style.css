@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #292d31;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: #4f00e0;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#produtos {
+    text-align: center;
+    padding: 50px;
+}
+
+.produto {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.produto img {
+    width: 130%;
+    max-width: 430px;
+    height: auto;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #73bef0; /* Nova cor do fundo */
+    color: rgb(0, 0, 0); /* Nova cor da letra (preto) */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #9a53f7;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4f00e0;
+    margin-top: 20px;
+}
+
+#contato {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.Contato {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.Contato img {
+    width: 200%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.Contato h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Contato p {
+    font-size: 16px;
+    color: #555;
+}
+
+button {
+    background-color: #070beeb2;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0609c7;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button a:hover {
+    color: #ffbb33;
+}
+
+
+
