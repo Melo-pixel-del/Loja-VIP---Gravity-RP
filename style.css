@@ -48,20 +48,40 @@ nav ul li a {
     border-radius: 10px;
 }
 
-button {
-    background-color: #73bef0; /* Nova cor do fundo */
-    color: rgb(0, 0, 0); /* Nova cor da letra (preto) */
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 17px;
-    margin-top: 10px;
+/* Estilos do botão Shine */
+.btn-shine {
+    display: inline-block;
+    padding: 12px 48px;
+    color: #fff;
+    background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+    border: 2px solid #494a4b;
     border-radius: 5px;
+    padding: 10px 20px;
+    transition: 0.3s ease-in-out;
 }
 
-button:hover {
-    background-color: #9a53f7;
+.btn-shine:hover {
+    background: linear-gradient(to right, #ffffff 0, #9f9f9f 50%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
 }
+
+@keyframes shine {
+    0% { background-position: 0; }
+    60% { background-position: 180px; }
+    100% { background-position: 180px; }
+}
+
 
 footer {
     text-align: center;
@@ -108,31 +128,3 @@ footer {
     font-size: 16px;
     color: #555;
 }
-
-button {
-    background-color: #070beeb2;
-    color: rgb(255, 255, 255);
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 17px;
-    margin-top: 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #0609c7;
-}
-
-button a {
-    text-decoration: none;
-    color: inherit;
-}
-
-button a:hover {
-    color: #ffbb33;
-}
-
-
-
